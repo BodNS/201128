@@ -3,17 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: linear-gradient(grey, black);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 1000px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
-  margin: 0 auto;
+  align-items: center;
 }
 .userCard {
   background: url(https://1ul.ru/upload/resize_image/publication/76569/960_0_3_14288063_1093082154114366_4724349925498814464_n_1.jpg);
@@ -27,8 +27,8 @@ body {
   z-index: 5;
   display: flex;
   flex-direction: column;
-  justify-items: flex-end;
-  align-items: flex-start;
+  justify-content: flex-end;
+  align-items: center;
   color: aliceblue;
 }
 .userCard span {
